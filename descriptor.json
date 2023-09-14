@@ -1,0 +1,41 @@
+{
+  "name": "Get Users",
+  "type": "flogo:activity",
+  "version": "0.0.1",
+  "title": "A2: Get Users By Group",
+  "description": "Returns Array of Users",
+  "homepage": "https://github.com/AiRISTAFlowInc/FlowActivities/tree/main/GetUsersByGroup",
+  "input": [
+    {
+      "name": "IP",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "CustomerId",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Username",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Password",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "Group",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "output": [
+    {
+      "name": "Users",
+      "type": "array"
+    }
+  ]
+}
